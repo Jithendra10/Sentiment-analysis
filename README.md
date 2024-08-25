@@ -18,9 +18,14 @@ This project focuses on sentiment analysis of tweets to classify sentiments into
 
 4. **Evaluation:**
    - Computes and prints training and testing accuracies of the Naive Bayes model.
+## Results
 
-## Requirements
+**Without Neutral Sentiment**:
+- Training Accuracy: 91.607%.
+- Testing Accuracy: 94.107%.
 
-- Python 3.x
-- Libraries: `pandas`, `numpy`, `sklearn`, `nltk`, `tqdm`
+**With Neutral Sentiment**:
+- Training Accuracy: 81.944%.
+- Testing Accuracy: 83.092%.
+
 
